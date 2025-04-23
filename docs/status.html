@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AncestryClone Distribution Status</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="300">
+    <style>
+        body { font-family: -apple-system, system-ui; margin: 0; padding: 20px; }
+        .status-card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .status-operational { background: #34C759; }
+        .version-badge {
+            background: #007AFF;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>AncestryClone Distribution Status</h1>
+    <p><span class="version-badge">Version 1.0.1</span></p>
+    
+    <div class="status-card">
+        <h3>
+            <span class="status-indicator status-operational"></span>
+            Distribution Channels
+        </h3>
+        <ul>
+            <li>AltStore: Operational</li>
+            <li>Scarlet: Operational</li>
+            <li>AppDB: Operational</li>
+            <li>Direct Download: Operational</li>
+        </ul>
+        <p>Last updated: Wed Apr 23 22:36:06 IST 2025</p>
+    </div>
+    
+    <div class="status-card">
+        <h3>Latest Release Information</h3>
+        <p>Version: 1.0.1</p>
+        <p>Release Date: April 23, 2025</p>
+        <p><a href="https://github.com/arvindcr4/AncestryClone/releases/latest">View Release Notes</a></p>
+    </div>
+    
+    <div class="status-card">
+        <h3>Installation Links</h3>
+        <ul>
+            <li><a href="altstore://source?url=https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.1/altstore-manifest.json">Install with AltStore</a></li>
+            <li><a href="scarlet://install?url=https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.1/scarlet.json">Install with Scarlet</a></li>
+            <li><a href="appdb://install?url=https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.1/appdb.json">Install with AppDB</a></li>
+            <li><a href="https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.1/AncestryClone.ipa">Download IPA File</a></li>
+        </ul>
+    </div>
+    
+    <footer style="margin-top: 30px; text-align: center; color: #666;">
+        <p>Status page auto-refreshes every 5 minutes</p>
+        <p><a href="https://github.com/arvindcr4/AncestryClone">View on GitHub</a></p>
+    </footer>
+</body>
+</html>
