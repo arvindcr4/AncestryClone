@@ -1,0 +1,52 @@
+{
+  "name": "AncestryClone",
+  "identifier": "com.example.AncestryClone",
+  "sourceURL": "https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.0/scarlet.json",
+  "apps": [
+    {
+      "name": "AncestryClone",
+      "bundleIdentifier": "com.example.AncestryClone",
+      "developerName": "AncestryClone Team",
+      "subtitle": "Explore your family history",
+      "version": "1.0.0",
+      "versionDate": "2025-04-23",
+      "versionDescription": "Initial release with comprehensive iPad support including optimized UI, multi-window support, and enhanced tree visualization.",
+      "downloadURL": "https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.0/AncestryClone.ipa",
+      "localizedDescription": "AncestryClone helps you build and explore your family tree with an intuitive interface optimized for both iPhone and iPad. This app lets you create and maintain detailed family trees with support for photos, documents, and notes.\n\nFeatures:\n• Create extensive family trees\n• Add photos and documents\n• Optimized for iPad with split view\n• Support for Apple Pencil\n• Multi-window capability",
+      "iconURL": "https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.0/icon.png",
+      "tintColor": "007AFF",
+      "size": 43812,
+      "screenshotURLs": [
+        "https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.0/screenshot1.png",
+        "https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.0/screenshot2.png"
+      ],
+      "permissions": [
+        {
+          "type": "photos",
+          "description": "Used to add photos to family members"
+        },
+        {
+          "type": "camera",
+          "description": "Used to take new photos of documents and people"
+        },
+        {
+          "type": "location",
+          "description": "Helps identify places for genealogy records near you"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "AncestryClone 1.0.0 Released",
+      "identifier": "initial-release",
+      "caption": "Initial release with iPad support",
+      "date": "2025-04-23T12:00:00-04:00",
+      "markdown": "# AncestryClone is now available!\n\nWe're excited to announce the first release of AncestryClone, featuring comprehensive iPad support!\n\n## Highlights\n\n- Optimized UI for both iPhone and iPad\n- Support for multitasking and split-screen on iPad\n- Enhanced tree visualization\n- Keyboard shortcut support for iPad\n\nDownload now and start exploring your family history!",
+      "tintColor": "007AFF",
+      "imageURL": "https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.0/news.png",
+      "notify": true
+    }
+  ]
+}
+
