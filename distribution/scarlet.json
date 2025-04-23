@@ -8,7 +8,7 @@
       "bundleIdentifier": "com.example.AncestryClone",
       "developerName": "AncestryClone Team",
       "subtitle": "Explore your family history",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "versionDate": "2025-04-23",
       "versionDescription": "Initial release with comprehensive iPad support including optimized UI, multi-window support, and enhanced tree visualization.",
       "downloadURL": "https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.0/AncestryClone.ipa",
