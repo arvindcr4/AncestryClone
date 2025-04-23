@@ -17,7 +17,7 @@ INSTALLATION STEPS
 2. ADD SOURCE & INSTALL APP
    - Open AltStore on your device
    - Go to "Browse" → Tap "+" in top-right
-   - Enter source URL: https://example.com/altstore/ancestryclone
+   - Enter source URL: https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.0/altstore-manifest.json
    - Find "AncestryClone" and tap "GET"
    - Wait for installation to complete
 
@@ -49,7 +49,7 @@ Your device will open AltStore automatically to install AncestryClone.
 DIRECT LINKS
 --------------------------------------
 
-• AltStore Source URL: https://example.com/altstore/ancestryclone
+• AltStore Source URL: https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.0/altstore-manifest.json
 • Direct IPA Download: https://example.com/downloads/AncestryClone.ipa
 • Support Website: https://example.com/support
 

@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "versionDate": "2025-04-23",
     "versionDescription": "Initial release with comprehensive iPad support including optimized UI, multi-window support, and enhanced tree visualization.",
-    "downloadURL": "https://example.com/downloads/AncestryClone.ipa",
+    "downloadURL": "https://github.com/arvindcr4/AncestryClone/releases/download/v1.0.0/AncestryClone.ipa",
     "localizedDescription": "AncestryClone helps you build and explore your family tree with an intuitive interface optimized for both iPhone and iPad.",
     "iconURL": "https://example.com/icons/AncestryClone.png",
     "tintColor": "007AFF",
