@@ -4,6 +4,14 @@
 <dict>
     <key>UILaunchScreen</key>
     <dict/>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>15.0.0</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
     <key>UISupportedInterfaceOrientations~ipad</key>
     <array>
         <string>UIInterfaceOrientationPortrait</string>
@@ -17,11 +25,17 @@
     <string>We need photo library access to add existing photos to your family tree.</string>
     <key>NSMicrophoneUsageDescription</key>
     <string>We need microphone access to record audio stories for your family tree.</string>
-    <key>UIRequiresFullScreen</key>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>This allows us to provide a better, personalized experience.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Your location can be used to identify places for genealogy records near you.</string>
+    <key>UISceneSupportsMultipleWindows</key>
     <true/>
     <key>UIRequiredDeviceCapabilities</key>
     <array>
-        <string>armv7</string>
+        <string>arm64</string>
+        <string>metal</string>
+        <string>wifi</string>
     </array>
     <key>UIUserInterfaceStyle</key>
     <string>Automatic</string>
@@ -34,6 +48,62 @@
             </array>
             <key>CFBundleURLName</key>
             <string>com.example.AncestryClone</string>
+            <string>com.example.AncestryClone</string>
+        </dict>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>altstore</string>
+        <string>altstore-placeholder</string>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>processing</string>
+    </array>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeName</key>
+            <string>GEDCOM Genealogy File</string>
+            <key>LSHandlerRank</key>
+            <string>Owner</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>public.gedcom</string>
+            </array>
+        </dict>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+        <dict>
+            <key>UTTypeIdentifier</key>
+            <string>public.gedcom</string>
+            <key>UTTypeDescription</key>
+            <string>GEDCOM Genealogy File</string>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.text</string>
+            </array>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>ged</string>
+                    <string>gedcom</string>
+                </array>
+                <key>public.mime-type</key>
+                <array>
+                    <string>application/x-gedcom</string>
+                </array>
+            </dict>
         </dict>
     </array>
 </dict>
