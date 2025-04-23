@@ -1,0 +1,41 @@
+name: Release Management
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Create Distribution Package
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/}
+          cd distribution
+          zip -r "../AncestryClone-$VERSION-full.zip" ./*
+          cd ..
+          
+      - name: Update Release Assets
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            AncestryClone-*-full.zip
+            distribution/releases/AncestryClone.ipa
+            distribution/configs/*.json
+      
+      - name: Update Documentation
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/}
+          find distribution/docs -type f -exec sed -i "s/version [0-9.]\+/version ${VERSION#v}/g" {} +
+          find distribution/configs -type f -name "*.json" -exec sed -i "s/\"version\": \"[0-9.]\+\"/\"version\": \"${VERSION#v}\"/g" {} +
+          
+      - name: Create Documentation PR
+        uses: peter-evans/create-pull-request@v5
+        with:
+          title: "Update documentation for ${{ github.ref }}"
+          body: "Automatically update documentation for release ${{ github.ref }}"
+          branch: "docs/release-${GITHUB_REF#refs/tags/}"
+          base: main
+
