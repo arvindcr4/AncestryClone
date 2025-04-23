@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>UILaunchScreen</key>
+    <dict/>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>NSCameraUsageDescription</key>
+    <string>We need camera access to scan documents and take photos for your family tree.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need photo library access to add existing photos to your family tree.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We need microphone access to record audio stories for your family tree.</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>armv7</string>
+    </array>
+    <key>UIUserInterfaceStyle</key>
+    <string>Automatic</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>ancestryclone</string>
+            </array>
+            <key>CFBundleURLName</key>
+            <string>com.example.AncestryClone</string>
+        </dict>
+    </array>
+</dict>
+</plist>
+
