@@ -58,6 +58,13 @@ AncestryClone/
    - Update documentation
    - Deploy to all distribution channels
 
+### 📦 Continuous Deployment
+
+Every push to the `main` branch triggers a GitHub Actions workflow that
+runs [Fastlane](https://fastlane.tools) to build the app and upload the
+beta to TestFlight. Store your App Store Connect API key in the repository
+secrets as `APP_STORE_CONNECT_API_KEY` for the workflow to authenticate.
+
 ## 💬 Support
 
 - [GitHub Issues](https://github.com/arvindcr4/AncestryClone/issues)
